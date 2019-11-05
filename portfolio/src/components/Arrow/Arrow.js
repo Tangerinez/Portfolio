@@ -5,9 +5,9 @@ function Arrow() {
   return (
     <svg
       className="arrow"
-      xmlnsX="http://ns.adobe.com/Extensibility/1.0/"
-      xmlnsI="http://ns.adobe.com/AdobeIllustrator/10.0/"
-      xmlnsGraph="http://ns.adobe.com/Graphs/1.0/"
+      xmlnsx="http://ns.adobe.com/Extensibility/1.0/"
+      xmlnsi="http://ns.adobe.com/AdobeIllustrator/10.0/"
+      xmlnsgraph="http://ns.adobe.com/Graphs/1.0/"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       version="1.1"
@@ -24,7 +24,7 @@ function Arrow() {
           width="1"
           height="1"
         />
-        <g iExtraneous="self">
+        <g iextraneous="self">
           <g>
             <path
               fill="#f7f7ff"

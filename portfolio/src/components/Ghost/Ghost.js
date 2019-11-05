@@ -14,7 +14,7 @@ function Ghost() {
       width="127.433px"
       height="132.743px"
       viewBox="0 0 127.433 132.743"
-      enable-background="new 0 0 127.433 132.743"
+      enableBackground="new 0 0 127.433 132.743"
       xmlSpace="preserve"
     >
       <path
@@ -38,7 +38,7 @@ function Ghost() {
       <circle
         fill="#FCEFED"
         stroke="#FEEBE6"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         cx="18.614"
         cy="99.426"
         r="3.292"
@@ -46,7 +46,7 @@ function Ghost() {
       <circle
         fill="#FCEFED"
         stroke="#FEEBE6"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         cx="95.364"
         cy="28.676"
         r="3.291"
@@ -54,7 +54,7 @@ function Ghost() {
       <circle
         fill="#FCEFED"
         stroke="#FEEBE6"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         cx="24.739"
         cy="93.551"
         r="2.667"
@@ -62,7 +62,7 @@ function Ghost() {
       <circle
         fill="#FCEFED"
         stroke="#FEEBE6"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         cx="101.489"
         cy="33.051"
         r="2.666"
@@ -70,7 +70,7 @@ function Ghost() {
       <circle
         fill="#FCEFED"
         stroke="#FEEBE6"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         cx="18.738"
         cy="87.717"
         r="2.833"
@@ -78,7 +78,7 @@ function Ghost() {
       <path
         fill="#FCEFED"
         stroke="#FEEBE6"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         d="M116.279,55.814c-0.021-0.286-2.323-28.744-30.221-41.012
    c-7.806-3.433-15.777-5.173-23.691-5.173c-16.889,0-30.283,7.783-37.187,15.067c-9.229,9.736-13.84,26.712-14.191,30.259
    l-0.748,62.332c0.149,2.133,1.389,6.167,5.019,6.167c1.891,0,4.074-1.083,6.672-3.311c4.96-4.251,7.424-6.295,9.226-6.295

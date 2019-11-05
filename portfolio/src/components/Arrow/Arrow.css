@@ -1,5 +1,9 @@
 .arrow {
-  width: 0.8em;
-  padding-top: 4px;
-  margin-left: 16px;
+  width: 0.6em;
+}
+
+@media only screen and (min-width: 768px) {
+  .arrow {
+    width: 0.7em;
+  }
 }

@@ -4,7 +4,7 @@ import Arrow from "../../Arrow/Arrow";
 
 function ViewWorkButton() {
   return (
-    <button>
+    <button className="work-btn">
       <div className="btn-container">
         <div>View my work</div>
         <div className="arrow-container">

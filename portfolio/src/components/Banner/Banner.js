@@ -6,7 +6,7 @@ import "./Banner.css";
 
 function Banner() {
   return (
-    <div class="banner-container">
+    <div className="banner-container">
       <div className="banner-content">
         <div className="left-container">
           <IntroText />
