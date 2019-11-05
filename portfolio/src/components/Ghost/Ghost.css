@@ -1,0 +1,10 @@
+.ghost {
+  animation: float 3s ease-out infinite;
+  margin-right: 4em;
+}
+
+@keyframes float {
+  50% {
+    transform: translate(0, 20px);
+  }
+}
