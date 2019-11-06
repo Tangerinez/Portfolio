@@ -18,17 +18,21 @@ class About extends React.Component {
   render() {
     return (
       <div className="about-container">
-        <div className="about-text">About</div>
+        <div className="about-text" id="about">
+          About
+        </div>
         <div className="flex-line"></div>
-        <Bio />
-        <div className="profile-photo-container">
-          <img
-            src={this.state.imgURL}
-            className="profile-img"
-            alt="profile-img"
-            // onMouseOver={this.onHover}
-            // onMouseLeave={this.onLeave}
-          ></img>
+        <div className="about-content">
+          <Bio />
+          <div className="profile-photo-container">
+            <img
+              src={this.state.imgURL}
+              className="profile-img"
+              alt="profile-img"
+              // onMouseOver={this.onHover}
+              // onMouseLeave={this.onLeave}
+            ></img>
+          </div>
         </div>
       </div>
     );

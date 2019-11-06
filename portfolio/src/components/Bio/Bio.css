@@ -3,8 +3,16 @@
   height: 100%;
   padding: 2em 2em 1em 2em;
   text-align: center;
+  font-size: 1.1em;
 }
 
 .bio-content2 {
   margin-top: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+  .bio-container {
+    text-align: left;
+    width: 100%;
+  }
 }
