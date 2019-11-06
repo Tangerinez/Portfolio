@@ -1,5 +1,4 @@
 .about-container {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: #f9f9fc;
@@ -7,21 +6,21 @@
 
 .about-text {
   text-align: center;
-  margin: 1em 0 1em 0;
+  margin: 0.5em 0 0.2em 0;
   font-family: "Proxima Nova";
-  font-size: 32px;
+  font-size: 48px;
 }
 
 .flex-line {
   margin: 25px 0 75px 0;
-  width: 70px;
+  width: 75px;
   height: 4px;
   background: #203a43;
   margin: 0 auto;
 }
 
 .profile-photo-container {
-  padding: 1em;
+  padding: 1em 2em 1em 2em;
 }
 
 .profile-img {

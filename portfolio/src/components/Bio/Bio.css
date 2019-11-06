@@ -1,4 +1,10 @@
 .bio-container {
+  font-family: "Proxima Nova";
   height: 100%;
-  padding: 1em;
+  padding: 2em 2em 1em 2em;
+  text-align: center;
+}
+
+.bio-content2 {
+  margin-top: 1em;
 }

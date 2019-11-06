@@ -20,6 +20,7 @@ class About extends React.Component {
       <div className="about-container">
         <div className="about-text">About</div>
         <div className="flex-line"></div>
+        <Bio />
         <div className="profile-photo-container">
           <img
             src={this.state.imgURL}
@@ -29,7 +30,6 @@ class About extends React.Component {
             // onMouseLeave={this.onLeave}
           ></img>
         </div>
-        <Bio />
       </div>
     );
   }
