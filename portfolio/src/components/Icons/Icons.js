@@ -18,6 +18,13 @@ function Icon() {
           className="social-media-img twitter-logo"
         />
       </a>
+      <a href="https://github.com/Tangerinez">
+        <img
+          src={require("../images/github-logo.png")}
+          alt="github-logo"
+          className="social-media-img github-logo"
+        />
+      </a>
     </div>
   );
 }
