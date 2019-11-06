@@ -44,3 +44,9 @@
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  .work-btn {
+    font-size: 1.5em;
+  }
+}

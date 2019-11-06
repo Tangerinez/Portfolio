@@ -1,8 +1,6 @@
 .ghost {
   animation: float 3s ease-out infinite;
   width: 80px;
-  position: relative;
-  bottom: 2em;
 }
 
 @keyframes float {
@@ -13,6 +11,7 @@
 
 @media only screen and (min-width: 768px) {
   .ghost {
-    width: 190px;
+    width: 180px;
+    margin-bottom: 1em;
   }
 }
