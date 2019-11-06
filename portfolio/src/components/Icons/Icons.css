@@ -7,7 +7,7 @@
 .social-media-img {
   display: inline-block;
   background: #00a4a6;
-  border-radius: 5px;
+  border-radius: 25px;
   width: 50px;
   cursor: pointer;
   margin: 0 1em 0 1em;
@@ -24,6 +24,7 @@
 @media only screen and (min-width: 768px) {
   .social-media-img {
     width: 60px;
+    margin: 0 2em 0 2em;
   }
   .github-logo {
     height: 60px;
@@ -33,6 +34,7 @@
 @media only screen and (min-width: 1024px) {
   .social-media-img {
     width: 65px;
+    margin: 0 3em 0 3em;
   }
   .github-logo {
     height: 65px;
