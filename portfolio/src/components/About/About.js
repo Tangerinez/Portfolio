@@ -19,6 +19,7 @@ class About extends React.Component {
     return (
       <div className="about-container">
         <div className="about-text">About</div>
+        <div className="flex-line"></div>
         <div className="profile-photo-container">
           <img
             src={this.state.imgURL}
