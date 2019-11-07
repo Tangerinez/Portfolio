@@ -15,9 +15,10 @@ function Bio() {
         product managers to create the best user experiences.
       </div>
       <div className="bio-content2">
-        My interests lie strongly in using React.js and Vue.js along with HTML5,
-        CSS3, and related technologies to create seamless client-side
-        experiences for all individuals.
+        Aside from coding, I enjoy exercising, exploring new restaurants,
+        playing computer games, and spending time with my friends, family, and
+        girlfriend. Below is a picture of my girlfriend and I on a random hill
+        in dogpatch - we had just finished a day of dog walking!
       </div>
     </div>
   );

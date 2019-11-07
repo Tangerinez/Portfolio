@@ -35,12 +35,14 @@ class About extends React.Component {
             ></img>
           </div>
         </div>
+        <div className="stack-text">
+          My interests lie strongly in using React.js and Vue.js along with
+          HTML5, CSS3, and related technologies to create seamless client-side
+          experiences for all individuals. Aside from frontend technologies, I
+          also have knowledge of using backend technologies and databases to
+          create full-stack applications.
+        </div>
         <div className="carousel-container">
-          <div className="stack-text">
-            My interests lie strongly in using React.js and Vue.js along with
-            HTML5, CSS3, and related technologies to create seamless client-side
-            experiences for all individuals.
-          </div>
           <Carousel />
         </div>
       </div>
