@@ -1,0 +1,6 @@
+.projects-container {
+  font-family: "Proxima Nova";
+  color: #444649;
+  background: -webkit-linear-gradient(to top, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to top, #2c5364, #203a43, #0f2027);
+}
