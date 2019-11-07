@@ -5,15 +5,12 @@ import { animateScroll as scroll } from "react-scroll";
 function Navbar() {
   return (
     <div className="navbar-container">
-      <div
-        className="category navbar-home"
-        // onClick={() => scroll.scrollTo(500)}
-      >
+      <div className="category navbar-home" onClick={() => scroll.scrollTo(0)}>
         Home
       </div>
       <div
         className="category navbar-about"
-        // onClick={() => scroll.scrollTo(500)}
+        onClick={() => scroll.scrollTo(767)}
       >
         About
       </div>

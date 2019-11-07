@@ -15,10 +15,11 @@ function Bio() {
         product managers to create the best user experiences.
       </div>
       <div className="bio-content2">
-        Aside from coding, I enjoy exercising, exploring new restaurants,
-        playing computer games, and spending time with my friends, family, and
-        girlfriend. Below is a picture of my girlfriend and I on a random hill
-        in dogpatch - we had just finished a day of dog walking!
+        Aside from coding, I enjoy exercising, exploring and writing reviews
+        about new restaurants, playing computer games, and spending time with my
+        friends, family, and girlfriend. Below is a picture of my girlfriend and
+        I on a random hill in dogpatch - we had just finished a day of dog
+        walking!
       </div>
     </div>
   );

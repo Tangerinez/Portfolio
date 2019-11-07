@@ -12,7 +12,10 @@ export default () => (
     showIndicators={false}
     showArrows={false}
     showThumbs={false}
-    // centerMode={true}
+    centerMode={true}
+    centerSlidePercentage="60"
+    transitionTime="1000"
+    useKeyboardArrows={true}
   >
     <div className="img-container">
       <img src={require("../images/react.png")} alt="react" />

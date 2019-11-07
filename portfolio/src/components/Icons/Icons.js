@@ -25,6 +25,13 @@ function Icon() {
           className="social-media-img github-logo"
         />
       </a>
+      <a href="https://www.yelp.com/user_details?userid=s7KihIW1cIWAdzWzKXv61w">
+        <img
+          src={require("../images/yelp-logo.png")}
+          alt="github-logo"
+          className="social-media-img yelp-logo"
+        />
+      </a>
     </div>
   );
 }

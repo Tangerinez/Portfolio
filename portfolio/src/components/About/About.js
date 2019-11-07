@@ -8,13 +8,13 @@ class About extends React.Component {
     imgURL: "./profile-photo1.png"
   };
 
-  // onHover = () => {
-  //   this.setState({ imgURL: "./profile-photo2.png" });
-  // };
+  onHover = () => {
+    this.setState({ imgURL: "./profile-photo2.png" });
+  };
 
-  // onLeave = () => {
-  //   this.setState({ imgURL: "./profile-photo1.png" });
-  // };
+  onLeave = () => {
+    this.setState({ imgURL: "./profile-photo1.png" });
+  };
 
   render() {
     return (
@@ -30,8 +30,8 @@ class About extends React.Component {
               src={this.state.imgURL}
               className="profile-img"
               alt="profile-img"
-              // onMouseOver={this.onHover}
-              // onMouseLeave={this.onLeave}
+              onMouseOver={this.onHover}
+              onMouseLeave={this.onLeave}
             ></img>
           </div>
         </div>
