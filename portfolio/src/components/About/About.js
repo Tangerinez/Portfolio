@@ -1,5 +1,6 @@
 import React from "react";
 import Bio from "../Bio/Bio";
+import Carousel from "../Carousel/Carousel";
 import "./About.css";
 
 class About extends React.Component {
@@ -34,6 +35,7 @@ class About extends React.Component {
             ></img>
           </div>
         </div>
+        <Carousel />
       </div>
     );
   }

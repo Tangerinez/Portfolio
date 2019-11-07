@@ -17,7 +17,7 @@ function Bio() {
       <div className="bio-content2">
         My interests lie strongly in using React.js and Vue.js along with HTML5,
         CSS3, and related technologies to create seamless client-side
-        experiences for individuals.
+        experiences for all individuals.
       </div>
     </div>
   );
