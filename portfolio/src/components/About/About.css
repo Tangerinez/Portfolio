@@ -14,9 +14,10 @@
   font-family: "Proxima Nova";
   font-size: 48px;
   color: #444649;
+  text-transform: uppercase;
 }
 
-.flex-line {
+.flex-line-dark {
   margin: 25px 0 75px 0;
   width: 75px;
   height: 4px;

@@ -22,7 +22,7 @@ class About extends React.Component {
         <div className="about-text" id="about">
           About
         </div>
-        <div className="flex-line"></div>
+        <div className="flex-line-dark"></div>
         <div className="about-content">
           <Bio />
           <div className="profile-photo-container">

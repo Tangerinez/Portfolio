@@ -13,8 +13,8 @@ export default () => (
     showArrows={false}
     showThumbs={false}
     centerMode={true}
-    centerSlidePercentage="60"
-    transitionTime="1000"
+    centerSlidePercentage={60}
+    transitionTime={1000}
     useKeyboardArrows={true}
   >
     <div className="img-container">
