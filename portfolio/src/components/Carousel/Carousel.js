@@ -12,7 +12,7 @@ export default () => (
     showIndicators={false}
     showArrows={false}
     showThumbs={false}
-    width="60%"
+    // width="60%"
     // centerMode={true}
   >
     <div className="img-container">
