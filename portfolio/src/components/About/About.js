@@ -35,7 +35,9 @@ class About extends React.Component {
             ></img>
           </div>
         </div>
-        <Carousel />
+        <div className="carousel-container">
+          <Carousel />
+        </div>
       </div>
     );
   }
