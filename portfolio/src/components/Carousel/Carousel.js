@@ -12,29 +12,34 @@ export default () => (
     showIndicators={false}
     showArrows={false}
     showThumbs={false}
-    // width="60%"
     // centerMode={true}
   >
     <div className="img-container">
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-1.jpg" />
+      <img src={require("../images/react.png")} alt="react" />
     </div>
     <div className="img-container">
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-2.jpg" />
+      <img src={require("../images/redux.png")} alt="redux" />
     </div>
     <div className="img-container">
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-3.jpg" />
+      <img src={require("../images/vue.png")} alt="vue" />
     </div>
     <div className="img-container">
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-4.jpg" />
+      <img src={require("../images/html.png")} alt="html" />
     </div>
     <div className="img-container">
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-5.jpg" />
+      <img src={require("../images/css.png")} alt="css" />
     </div>
     <div className="img-container">
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-6.jpg" />
+      <img src={require("../images/node.png")} alt="node" />
     </div>
     <div className="img-container">
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-7.jpg" />
+      <img src={require("../images/jest.png")} alt="jest" />
+    </div>
+    <div className="img-container">
+      <img src={require("../images/mongodb.png")} alt="mongodb" />
+    </div>
+    <div className="img-container">
+      <img src={require("../images/mysql.png")} alt="mysql" />
     </div>
   </Carousel>
 );

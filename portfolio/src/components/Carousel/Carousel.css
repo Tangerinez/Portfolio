@@ -2,4 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #f9f9fc !important;
+}
+
+.slide {
+  background: #f9f9fc !important;
 }
