@@ -25,11 +25,11 @@ function Projects() {
           appURL="http://fathomless-bastion-86766.herokuapp.com"
         />
         <ProjectCard
-          imgURL="./react-chatroom.png"
-          alt="react-chatroom"
-          cardTitle="React Chatroom"
-          description="React.js + HTML + CSS + Node.js + Pusher ChatKit API"
-          sourceURL="https://github.com/Tangerinez/React-Chat-App"
+          imgURL="./clicky-game.png"
+          alt="clicky-game"
+          cardTitle="Clicky Game"
+          description="React.js + HTML + CSS/Bootstrap"
+          sourceURL="https://github.com/Tangerinez/ReactMemoryGame"
         />
         <ProjectCard
           imgURL="./swolemates.png"
@@ -48,19 +48,11 @@ function Projects() {
           appURL="https://rugged-gunnison-25361.herokuapp.com/"
         />
         <ProjectCard
-          imgURL="./clicky-game.png"
-          alt="clicky-game"
-          cardTitle="Clicky Game"
-          description="React.js + HTML + CSS/Bootstrap"
-          sourceURL="https://github.com/Tangerinez/ReactMemoryGame"
-        />
-        <ProjectCard
-          imgURL="./friend-finder.png"
-          alt="friend-finder"
-          id="friend-finder"
-          cardTitle="Friend Finder"
-          description="Vanilla.js + HTML + CSS + Node.js/Express.js"
-          sourceURL="https://github.com/Tangerinez/FriendFinder"
+          imgURL="./react-chatroom.png"
+          alt="react-chatroom"
+          cardTitle="React Chatroom"
+          description="React.js + HTML + CSS + Node.js + Pusher ChatKit API"
+          sourceURL="https://github.com/Tangerinez/React-Chat-App"
         />
         <ProjectCard
           imgURL="./shopping-cart.png"
@@ -69,6 +61,14 @@ function Projects() {
           cardTitle="Vue Shopping Cart"
           description="Vue.js + HTML + CSS + Node.js"
           sourceURL="https://github.com/Tangerinez/Vue-Shopping-Cart"
+        />
+        <ProjectCard
+          imgURL="./friend-finder.png"
+          alt="friend-finder"
+          id="friend-finder"
+          cardTitle="Friend Finder"
+          description="Vanilla.js + HTML + CSS + Node.js/Express.js"
+          sourceURL="https://github.com/Tangerinez/FriendFinder"
         />
       </div>
     </div>

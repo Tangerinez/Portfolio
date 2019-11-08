@@ -1,10 +1,11 @@
 import React from "react";
 import "./ViewWorkButton.css";
+import { animateScroll as scroll } from "react-scroll";
 import Arrow from "../../Arrow/Arrow";
 
 function ViewWorkButton() {
   return (
-    <button className="work-btn">
+    <button className="work-btn" onClick={() => scroll.scrollTo(1702)}>
       <div className="btn-container">
         <div>View my work</div>
         <div className="arrow-container">

@@ -10,15 +10,15 @@ function Navbar() {
       </div>
       <div
         className="category navbar-about"
-        onClick={() => scroll.scrollTo(767)}
+        onClick={() => scroll.scrollTo(718)}
       >
         About
       </div>
       <div
         className="category navbar-projects"
-        // onClick={() => scroll.scrollTo(500)}
+        onClick={() => scroll.scrollTo(1702)}
       >
-        Projects
+        Portfolio
       </div>
     </div>
   );

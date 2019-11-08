@@ -7,14 +7,18 @@ class ProjectCard extends React.Component {
     let appButton;
     if (this.props.sourceURL) {
       sourceButton = (
-        <a href={this.props.sourceURL}>
+        <a
+          href={this.props.sourceURL}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="source-code-button">Source Code</button>
         </a>
       );
     }
     if (this.props.appURL) {
       appButton = (
-        <a href={this.props.appURL}>
+        <a href={this.props.appURL} target="_blank" rel="noopener noreferrer">
           <button className="app-button">Application</button>
         </a>
       );
