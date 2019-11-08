@@ -1,12 +1,53 @@
 import React from "react";
 import "./ProjectCards.css";
 
-const ProjectCard = props => {
-  return (
-    <div className="each-card-wrap">
-      <img src={props.imgURL} alt={props.alt} className="project-img"></img>
-    </div>
-  );
-};
+class ProjectCard extends React.Component {
+  render() {
+    let sourceButton;
+    let appButton;
+    if (this.props.sourceURL) {
+      sourceButton = (
+        <a
+          href={this.props.sourceURL}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="source-code-button">Source Code</button>
+        </a>
+      );
+    }
+    if (this.props.appURL) {
+      appButton = (
+        <a href={this.props.appURL} target="_blank" rel="noopener noreferrer">
+          <button className="app-button">Application</button>
+        </a>
+      );
+    } else {
+      appButton = (
+        <a href={this.props.demoURL}>
+          <button className="app-button">Demo</button>
+        </a>
+      );
+    }
+    return (
+      <div className="each-card-wrap">
+        <img
+          src={this.props.imgURL}
+          alt={this.props.alt}
+          className="project-img"
+          id={this.props.id}
+        ></img>
+        <div className="text">
+          <div className="card-title">{this.props.cardTitle}</div>
+          <div className="project-description">{this.props.description}</div>
+          <div className="btn-container2">
+            {appButton}
+            {sourceButton}
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
 
 export default ProjectCard;

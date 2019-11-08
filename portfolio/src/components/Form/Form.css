@@ -1,0 +1,67 @@
+.form-container {
+  margin-top: 2.5em;
+  font-family: "Proxima Nova";
+}
+
+input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  border: 0;
+  padding: 10px 15px;
+  background: #252934;
+  font-size: 12pt;
+  margin-bottom: 3px;
+  color: #f9f9fc;
+}
+
+textarea {
+  min-height: 150px;
+  margin-bottom: 5px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  border: 0;
+  padding: 10px 15px;
+  background: #252934;
+  font-size: 1em;
+  color: #f9f9fc;
+}
+
+.form-button {
+  float: right;
+  margin-top: 5px;
+  font-size: 1em;
+  color: #f9f9fc;
+  box-sizing: inherit;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background: #00a4a6;
+}
+
+.error-message {
+  font-size: 0.6em;
+  color: #00a4a6;
+  font-weight: 600;
+  line-height: 1.5em;
+}
+
+@media only screen and (min-width: 600px) {
+  .error-message {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .form-container {
+    width: 544px;
+    margin: 0 auto;
+    margin-top: 2.5em;
+  }
+}
