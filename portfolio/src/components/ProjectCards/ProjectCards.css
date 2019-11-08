@@ -1,4 +1,197 @@
 .each-card-wrap {
   width: 100%;
-  height: 240px;
+  position: relative;
+}
+
+.each-card-wrap:hover {
+  cursor: pointer;
+}
+
+.each-card-wrap:hover .text {
+  opacity: 1;
+}
+
+.each-card-wrap:hover .roambi {
+  opacity: 1;
+}
+
+/* #friend-finder,
+#shopping-cart {
+  height: 71%;
+} */
+
+.text {
+  z-index: 2;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  color: #1b242f;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #2c5364, #203a43, #0f2027);
+  display: flex;
+  flex-flow: column;
+}
+
+.card-title {
+  font-family: "Proxima Nova";
+  font-size: 2em;
+  color: #f7f7ff;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.project-description {
+  color: #00a4a6;
+  text-align: center;
+  font-size: 1em;
+  padding: 0.4em 1.5em 0.8em 1.5em;
+}
+
+.btn-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-grow: 1;
+}
+
+.source-code-button {
+  font-family: "Proxima Nova";
+  border: 2px solid #00a4a6;
+  width: 120px;
+  font-size: 1.2em;
+  padding: 7px 0;
+  background: #f7f7ff;
+}
+
+.source-code-button:hover {
+  background: #00a4a6;
+  color: #f7f7ff;
+  cursor: pointer;
+}
+
+.app-button {
+  font-family: "Proxima Nova";
+  border: 2px solid #00a4a6;
+  width: 120px;
+  font-size: 1.2em;
+  padding: 7px 0;
+  background: #f7f7ff;
+}
+
+.app-button:hover {
+  background: #00a4a6;
+  color: #f7f7ff;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 420px) {
+  .each-card-wrap {
+    flex: 0 1 45%;
+  }
+  .card-title {
+    font-size: 1em;
+    margin-top: 1em;
+  }
+  .project-description {
+    font-size: 0.5em;
+    margin-top: 0.4em;
+    padding: 0 0.8em 0 0.8em;
+  }
+  .btn-container2 {
+    padding-top: 0.5em;
+  }
+  .app-button,
+  .source-code-button {
+    font-size: 0.6em;
+    padding: 4px 0;
+    width: 80px;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .card-title {
+    font-size: 1.3em;
+  }
+  .project-description {
+    font-size: 0.6em;
+  }
+  .app-button,
+  .source-code-button {
+    font-size: 0.7em;
+    padding: 4px 0;
+    width: 100px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .card-title {
+    font-size: 1.5em;
+  }
+  .project-description {
+    font-size: 0.7em;
+  }
+
+  .app-button,
+  .source-code-button {
+    font-size: 0.8em;
+    padding: 4px 0;
+    width: 100px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .card-title {
+    font-size: 1.7em;
+    margin-top: 1.2em;
+  }
+
+  .app-button,
+  .source-code-button {
+    font-size: 1em;
+    padding: 4px 0;
+    width: 110px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .each-card-wrap {
+    flex: 0 1 38%;
+  }
+}
+
+@media only screen and (min-width: 940px) {
+  .card-title {
+    margin-top: 1.6em;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .each-card-wrap {
+    flex: 0 1 29.5%;
+  }
+  .card-title {
+    margin-top: 1em;
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .card-title {
+    margin-top: 1.5em;
+  }
+  .app-button,
+  .source-code-button {
+    font-size: 1.1em;
+    width: 120px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .card-title {
+    margin-top: 1.7em;
+  }
 }
