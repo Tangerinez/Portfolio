@@ -2,14 +2,20 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  justify-content: center;
   padding: 1em;
-  width: 300px;
+  box-sizing: border-box;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+  background: #0f2027;
 }
 
 .category {
-  font-size: 1.2em;
+  font-size: 1em;
   color: #f7f7ff;
   font-family: "Proxima Nova";
+  padding: 0 0.7em 0 0.7em;
 }
 
 .category:hover {
@@ -17,18 +23,31 @@
   color: #c6c6ca;
 }
 
-@media only screen and (min-width: 768px) {
-  .navbar-container {
-    width: 60%;
-    margin: 0 auto;
+@media only screen and (min-width: 600px) {
+  .category {
+    font-size: 1.1em;
+    padding: 0 1em 0 1em;
   }
+  .download {
+    width: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
   .category {
     font-size: 1.4em;
+    padding: 0 1.5em 0 1.5em;
+  }
+  .download {
+    width: 24px;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .category {
     font-size: 1.5em;
+  }
+  .download {
+    width: 26px;
   }
 }

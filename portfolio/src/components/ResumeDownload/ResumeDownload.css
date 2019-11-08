@@ -1,0 +1,29 @@
+.resume-href {
+  text-decoration: none;
+}
+
+.navbar-resume-download {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-resume-download:hover .download {
+  fill: #c6c6ca;
+}
+
+.download {
+  margin-left: 0.2em;
+  width: 17px;
+}
+
+@media only screen and (min-width: 600px) {
+  .download {
+    width: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .download {
+    width: 24px;
+  }
+}
