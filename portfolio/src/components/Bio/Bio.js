@@ -18,8 +18,8 @@ function Bio() {
         Aside from coding, I enjoy exercising, exploring and writing reviews
         about new restaurants, playing computer games, and spending time with my
         friends, family, and girlfriend. Below is a picture of my girlfriend and
-        I on a random hill in dogpatch - we had just finished a day of dog
-        walking!
+        I on a random hill in the Dogpatch district of San Francisco - we had
+        just finished a day of dog walking!
       </div>
     </div>
   );
