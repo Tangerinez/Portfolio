@@ -1,5 +1,5 @@
 .contact-container {
-  padding: 4em 2em 4em 2em;
+  padding: 4em 2em 6em 2em;
   background: #f9f9fc;
   font-family: "Proxima Nova";
 }
@@ -21,7 +21,7 @@
 }
 
 .contact-small-text {
-  font-size: 0.5em;
+  font-size: 0.6em;
   color: #00a4a6;
   font-weight: 600;
   text-align: center;
@@ -30,7 +30,7 @@
 
 @media only screen and (min-width: 600px) {
   .contact-container {
-    padding: 4em;
+    padding: 4em 4em 6em 4em;
   }
   .contact-small-text {
     font-size: 1em;
@@ -39,6 +39,6 @@
 
 @media only screen and (min-width: 700px) {
   .contact-container {
-    padding: 4em 7em 4em 7em;
+    padding: 4em 7em 6em 7em;
   }
 }

@@ -45,6 +45,19 @@ textarea {
   background: #00a4a6;
 }
 
+.error-message {
+  font-size: 0.6em;
+  color: #00a4a6;
+  font-weight: 600;
+  line-height: 1.5em;
+}
+
+@media only screen and (min-width: 600px) {
+  .error-message {
+    font-size: 1em;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .form-container {
     width: 544px;

@@ -1,30 +1,34 @@
 import React from "react";
 import "./Form.css";
 
-function validate(name, email, message) {
-  // we are going to store errors for all fields
-  // in a signle array
-  const errors = [];
-
+function validateName(name) {
+  const nameErrors = [];
   if (name.length === 0) {
-    errors.push("Name can't be empty");
+    nameErrors.push("Name can't be empty!");
   }
+  return nameErrors;
+}
 
+function validateEmail(email) {
+  const emailErrors = [];
   if (email.length < 5) {
-    errors.push("Email should be at least 5 charcters long");
+    emailErrors.push("Email should be at least 5 characters long!");
   }
   if (email.split("").filter(x => x === "@").length !== 1) {
-    errors.push("Email should contain a @");
+    emailErrors.push("Email should contain a @!");
   }
-  if (email.indexOf(".") === -1) {
-    errors.push("Email should contain at least one dot");
+  if (email.indexOf(".com") === -1) {
+    emailErrors.push("Email should contain .com!");
   }
+  return emailErrors;
+}
 
-  if (message.length < 8) {
-    errors.push("Password should be at least 6 characters long");
+function validateMessage(message) {
+  const messageErrors = [];
+  if (message.length < 1) {
+    messageErrors.push("Type a message!");
   }
-
-  return errors;
+  return messageErrors;
 }
 
 class Form extends React.Component {
@@ -32,56 +36,83 @@ class Form extends React.Component {
     name: "",
     email: "",
     message: "",
-    errors: []
+    nameErrors: [],
+    emailErrors: [],
+    messageErrors: []
   };
 
   handleSubmit = e => {
     e.preventDefault();
 
     const { name, email, message } = this.state;
-    const errors = validate(name, email, message);
+    const nameErrors = validateName(name);
+    const emailErrors = validateEmail(email);
+    const messageErrors = validateMessage(message);
 
-    if (errors.length > 0) {
-      this.setState({ errors });
-      return;
+    if (nameErrors.length > 0) {
+      this.setState({ nameErrors });
+    } else {
+      this.setState({ nameErrors: [] });
     }
+    if (emailErrors.length > 0) {
+      this.setState({ emailErrors });
+    } else {
+      this.setState({ emailErrors: [] });
+    }
+    if (messageErrors.length > 0) {
+      this.setState({ messageErrors });
+    } else {
+      this.setState({ messageErrors: [] });
+    }
+    this.reset();
+  };
+
+  reset = () => {
+    this.setState({
+      name: "",
+      email: "",
+      message: ""
+    });
   };
 
   render() {
-    const { errors } = this.state;
+    const { nameErrors, emailErrors, messageErrors } = this.state;
     return (
       <form
         className="form-container"
         onSubmit={this.handleSubmit}
         action="gtang159@gmail.com"
       >
-        {errors.map(error => (
-          <p key={error}>Error: {error}</p>
-        ))}
         <input
           placeholder="Name"
           type="text"
           name="name"
           value={this.state.name}
           onChange={evt => this.setState({ name: evt.target.value })}
+          formNoValidate
         />
-
+        <div className="error-message">{nameErrors}</div>
         <input
           placeholder="Enter email"
           type="email"
           name="email"
           value={this.state.email}
           onChange={evt => this.setState({ email: evt.target.value })}
+          formNoValidate
         />
-
+        {emailErrors.map(error => (
+          <div key={error} className="error-message">
+            {error}
+          </div>
+        ))}
         <textarea
           placeholder="Your Message"
           type="text"
           name="message"
           value={this.state.message}
-          onChange={evt => this.setState({ password: evt.target.value })}
+          onChange={evt => this.setState({ message: evt.target.value })}
         />
-
+        <div className="error-message">{messageErrors}</div>
         <input className="form-button" type="submit" value="SUBMIT"></input>
       </form>
     );

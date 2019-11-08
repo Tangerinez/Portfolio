@@ -3,7 +3,7 @@ import Ghost from "../Ghost/Ghost";
 import IntroText from "../IntroText/IntroText";
 import ViewWorkButton from "../Buttons/ViewWorkButton/ViewWorkButton";
 import Navbar from "../Navbar/Navbar";
-import Icons from "../Icons/Icons";
+// import Icons from "../Icons/Icons";
 import "./Banner.css";
 
 function Banner() {
@@ -16,9 +16,8 @@ function Banner() {
           <ViewWorkButton />
         </div>
         <Ghost />
-        {/* <Icons /> */}
       </div>
-      <Icons />
+      {/* <Icons /> */}
     </div>
   );
 }
