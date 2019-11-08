@@ -30,6 +30,7 @@ function Projects() {
           cardTitle="Clicky Game"
           description="React.js + HTML + CSS/Bootstrap"
           sourceURL="https://github.com/Tangerinez/ReactMemoryGame"
+          demoURL="memory-game.mov"
         />
         <ProjectCard
           imgURL="./swolemates.png"
@@ -53,14 +54,16 @@ function Projects() {
           cardTitle="React Chatroom"
           description="React.js + HTML + CSS + Node.js + Pusher ChatKit API"
           sourceURL="https://github.com/Tangerinez/React-Chat-App"
+          demoURL="chatroom-demo.mov"
         />
-        <ProjectCard
+        {/* <ProjectCard
           imgURL="./shopping-cart.png"
           alt="shopping-cart"
           id="shopping-cart"
           cardTitle="Vue Shopping Cart"
           description="Vue.js + HTML + CSS + Node.js"
           sourceURL="https://github.com/Tangerinez/Vue-Shopping-Cart"
+          demoURL="shopping-cart.mov"
         />
         <ProjectCard
           imgURL="./friend-finder.png"
@@ -69,7 +72,8 @@ function Projects() {
           cardTitle="Friend Finder"
           description="Vanilla.js + HTML + CSS + Node.js/Express.js"
           sourceURL="https://github.com/Tangerinez/FriendFinder"
-        />
+          demoURL="friend-finder.mov"
+        /> */}
       </div>
     </div>
   );

@@ -24,7 +24,7 @@ class ProjectCard extends React.Component {
       );
     } else {
       appButton = (
-        <a href="#">
+        <a href={this.props.demoURL}>
           <button className="app-button">Demo</button>
         </a>
       );
