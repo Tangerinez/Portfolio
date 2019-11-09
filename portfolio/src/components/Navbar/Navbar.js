@@ -19,123 +19,170 @@ class Navbar extends React.Component {
     }
     if (window.innerWidth >= 450 && window.innerWidth < 500) {
       this.setState({
-        aboutScroll: 688,
+        aboutScroll: 600,
+        projectScroll: 1788,
+        contactScroll: 2490
+      });
+    }
+    if (window.innerWidth >= 500 && window.innerWidth < 550) {
+      this.setState({
+        aboutScroll: 600,
+        projectScroll: 1788,
+        contactScroll: 2524
+      });
+    }
+    if (window.innerWidth >= 550 && window.innerWidth < 600) {
+      this.setState({
+        aboutScroll: 600,
+        projectScroll: 1758,
+        contactScroll: 2524
+      });
+    }
+    if (window.innerWidth >= 600 && window.innerWidth < 650) {
+      this.setState({
+        aboutScroll: 600,
+        projectScroll: 1736,
         contactScroll: 2560
       });
     }
-    if (window.innerWidth >= 500 && window.innerWidth < 600) {
+    if (window.innerWidth >= 650 && window.innerWidth < 700) {
       this.setState({
-        projectScroll: 1864,
-        contactScroll: 2600
-      });
-    }
-    if (window.innerWidth >= 600 && window.innerWidth < 700) {
-      this.setState({
-        projectScroll: 1814,
-        contactScroll: 2650
+        aboutScroll: 600,
+        projectScroll: 1724,
+        contactScroll: 2580
       });
     }
     if (window.innerWidth >= 700 && window.innerWidth < 750) {
       this.setState({
-        projectScroll: 1774,
-        contactScroll: 2694
+        aboutScroll: 600,
+        projectScroll: 1696,
+        contactScroll: 2610
       });
     }
     if (window.innerWidth >= 750 && window.innerWidth < 768) {
       this.setState({
-        contactScroll: 2710
+        aboutScroll: 600,
+        projectScroll: 1696,
+        contactScroll: 2630
       });
     }
     if (window.innerWidth >= 768 && window.innerWidth < 800) {
       this.setState({
-        aboutScroll: 670,
-        projectScroll: 1690,
-        contactScroll: 2650
+        aboutScroll: 592,
+        projectScroll: 1570,
+        contactScroll: 2540
       });
     }
     if (window.innerWidth >= 800 && window.innerWidth < 825) {
       this.setState({
-        aboutScroll: 668,
-        projectScroll: 1648,
-        contactScroll: 2512
+        aboutScroll: 592,
+        projectScroll: 1570,
+        contactScroll: 2450
       });
     }
     if (window.innerWidth >= 825 && window.innerWidth < 850) {
       this.setState({
-        projectScroll: 1596
+        aboutScroll: 592,
+        projectScroll: 1550,
+        contactScroll: 2450
       });
     }
-    if (window.innerWidth >= 850 && window.innerWidth < 90) {
+    if (window.innerWidth >= 850 && window.innerWidth < 900) {
       this.setState({
-        projectScroll: 1590
+        aboutScroll: 592,
+        projectScroll: 1510,
+        contactScroll: 2410
       });
     }
     if (window.innerWidth >= 900 && window.innerWidth < 950) {
       this.setState({
-        projectScroll: 1548,
-        contactScroll: 2490
+        aboutScroll: 592,
+        projectScroll: 1470,
+        contactScroll: 2430
       });
     }
     if (window.innerWidth >= 950 && window.innerWidth < 1000) {
       this.setState({
-        contactScroll: 2530
+        aboutScroll: 592,
+        projectScroll: 1470,
+        contactScroll: 2460
       });
     }
-    if (window.innerWidth >= 1000 && window.innerWidth < 1040) {
+    if (window.innerWidth >= 1000 && window.innerWidth < 1024) {
       this.setState({
-        contactScroll: 2554
+        aboutScroll: 592,
+        projectScroll: 1470,
+        contactScroll: 2494
+      });
+    }
+    if (window.innerWidth >= 1024 && window.innerWidth < 1040) {
+      this.setState({
+        aboutScroll: 592,
+        projectScroll: 1430,
+        contactScroll: 2472
       });
     }
     if (window.innerWidth >= 1040 && window.innerWidth < 1080) {
       this.setState({
-        projectScroll: 1510,
-        contactScroll: 2560
+        aboutScroll: 592,
+        projectScroll: 1430,
+        contactScroll: 2490
       });
     }
-    if (window.innerWidth >= 1080 && window.innerWidth < 1140) {
+    if (window.innerWidth >= 1080 && window.innerWidth < 1200) {
       this.setState({
-        contactScroll: 2200
-      });
-    }
-    if (window.innerWidth >= 1140 && window.innerWidth < 1200) {
-      this.setState({
-        contactScroll: 2224
+        aboutScroll: 592,
+        projectScroll: 1430,
+        contactScroll: 2150
       });
     }
     if (window.innerWidth >= 1200 && window.innerWidth < 1250) {
       this.setState({
-        projectScroll: 1490,
-        contactScroll: 2230
+        aboutScroll: 592,
+        projectScroll: 1410,
+        contactScroll: 2166
       });
     }
     if (window.innerWidth >= 1250 && window.innerWidth < 1300) {
       this.setState({
-        contactScroll: 2250
+        aboutScroll: 592,
+        projectScroll: 1410,
+        contactScroll: 2180
       });
     }
     if (window.innerWidth >= 1300 && window.innerWidth < 1350) {
       this.setState({
-        contactScroll: 2264
+        aboutScroll: 592,
+        projectScroll: 1410,
+        contactScroll: 2196
       });
     }
     if (window.innerWidth >= 1350 && window.innerWidth < 1400) {
       this.setState({
-        contactScroll: 2284
+        aboutScroll: 592,
+        projectScroll: 1410,
+        contactScroll: 2210
       });
     }
     if (window.innerWidth >= 1400 && window.innerWidth < 1450) {
       this.setState({
-        contactScroll: 2300
+        aboutScroll: 592,
+        projectScroll: 1410,
+        contactScroll: 2232
       });
     }
     if (window.innerWidth >= 1450 && window.innerWidth < 1500) {
       this.setState({
-        contactScroll: 2320
+        aboutScroll: 592,
+        projectScroll: 1410,
+        contactScroll: 2250
       });
     }
     if (window.innerWidth >= 1500) {
       this.setState({
-        contactScroll: 2340
+        aboutScroll: 592,
+        projectScroll: 1410,
+        contactScroll: 2290
       });
     }
   };
