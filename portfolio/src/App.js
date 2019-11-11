@@ -10,10 +10,10 @@ function App() {
   return (
     <div id="app">
       <Navbar />
-      <Banner />
-      <About />
-      <Projects />
-      <Contact />
+      <Banner id="section1" />
+      <About id="section2" />
+      <Projects id="section3" />
+      <Contact id="section4" />
       <Footer />
     </div>
   );

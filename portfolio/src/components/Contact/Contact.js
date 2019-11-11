@@ -2,9 +2,9 @@ import React from "react";
 import "./Contact.css";
 import Form from "../Form/Form";
 
-function Contact() {
+const Contact = props => {
   return (
-    <div className="contact-container">
+    <div className="contact-container" id={props.id}>
       <div className="contact-title">Contact</div>
       <div className="flex-line-dark"></div>
       <div className="contact-small-text">
@@ -13,6 +13,6 @@ function Contact() {
       <Form />
     </div>
   );
-}
+};
 
 export default Contact;

@@ -18,7 +18,7 @@ class About extends React.Component {
 
   render() {
     return (
-      <div className="about-container">
+      <div className="about-container" id={this.props.id}>
         <div className="about-text" id="about">
           About
         </div>

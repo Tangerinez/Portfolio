@@ -2,9 +2,9 @@ import React from "react";
 import "./Projects.css";
 import ProjectCard from "../ProjectCards/ProjectCards";
 
-function Projects() {
+const Projects = props => {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id={props.id}>
       <div className="projects-text">Projects</div>
       <div className="flex-line-white"></div>
       <div className="card-container">
@@ -77,6 +77,6 @@ function Projects() {
       </div>
     </div>
   );
-}
+};
 
 export default Projects;
