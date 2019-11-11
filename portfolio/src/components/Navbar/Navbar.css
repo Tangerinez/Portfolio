@@ -12,15 +12,22 @@
 }
 
 .category {
-  font-size: 1em;
+  font-size: 0.9em;
   color: #f7f7ff;
   font-family: "Proxima Nova";
-  padding: 0 0.7em 0 0.7em;
+  padding: 0 0.6em 0 0.6em;
 }
 
 .category:hover {
   cursor: pointer;
   color: #c6c6ca;
+}
+
+@media only screen and (min-width: 375px) {
+  .category {
+    font-size: 1em;
+    padding: 0 0.7em 0 0.7em;
+  }
 }
 
 @media only screen and (min-width: 600px) {

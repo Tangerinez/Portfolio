@@ -1,16 +1,23 @@
 .chevron-container {
   text-align: center;
   position: relative;
-  top: -55px;
+  top: -52px;
 }
 
 .chevron {
   background: #00a4a6;
-  width: 48px;
-  height: 54px;
+  width: 34px;
+  height: 42px;
   cursor: pointer;
 }
 
 .chevron:hover {
   background: #05c2c5;
+}
+
+@media only screen and (min-width: 375px) {
+  .chevron {
+    width: 44px;
+    height: 54px;
+  }
 }

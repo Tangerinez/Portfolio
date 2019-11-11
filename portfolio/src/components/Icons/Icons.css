@@ -6,23 +6,37 @@
   display: inline-block;
   background: #00a4a6;
   border-radius: 25px;
-  width: 60px;
+  width: 45px;
   cursor: pointer;
   margin: 0 0.8em 0 0.8em;
 }
 
 .github-logo {
-  height: 60px;
+  height: 45px;
 }
 
 .social-media-img:hover {
   background: #05c2c5;
 }
 
+@media only screen and (min-width: 375px) {
+  .social-media-img {
+    width: 58px;
+    margin: 0 0.8em 0 0.8em;
+  }
+
+  .github-logo {
+    height: 58px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .social-media-img {
     width: 60px;
     margin: 0 1em 0 1em;
+  }
+  .github-logo {
+    height: 60px;
   }
 }
 

@@ -5,10 +5,19 @@
 }
 
 .introText-title {
-  font-size: 1.8em;
+  font-size: 1.7em;
 }
 .introText-content {
-  font-size: 1.4em;
+  font-size: 1.2em;
+}
+
+@media only screen and (min-width: 375px) {
+  .introText-title {
+    font-size: 1.8em;
+  }
+  .introText-content {
+    font-size: 1.4em;
+  }
 }
 
 @media only screen and (min-width: 768px) {
