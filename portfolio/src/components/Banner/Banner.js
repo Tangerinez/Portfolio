@@ -14,7 +14,6 @@ function Banner() {
         </div>
         <Ghost />
       </div>
-      {/* <Icons /> */}
     </div>
   );
 }
