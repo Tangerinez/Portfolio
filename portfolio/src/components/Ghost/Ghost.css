@@ -2,7 +2,7 @@
   animation: float 3s ease-out infinite;
   width: 80px;
   position: relative;
-  top: 2em;
+  top: 1.5em;
 }
 
 @keyframes float {
