@@ -1,11 +1,11 @@
 import React from "react";
-import "./ResumeDownload.css";
+import "./ResumeDownloadButton.css";
 
-function ResumeDownload() {
+function ResumeDownloadButton() {
   return (
     <a href="./gregory-tang-resume.png" download className="resume-href">
-      <div className="resume-download-container">
-        <div className="category navbar-resume-download">
+      <button className="resume-download-button">
+        <div className="resume-download-container">
           Resume
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -21,9 +21,9 @@ function ResumeDownload() {
             />
           </svg>
         </div>
-      </div>
+      </button>
     </a>
   );
 }
 
-export default ResumeDownload;
+export default ResumeDownloadButton;

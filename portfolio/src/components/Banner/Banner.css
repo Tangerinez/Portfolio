@@ -15,7 +15,7 @@
   justify-content: space-evenly;
   align-items: center;
   position: absolute;
-  bottom: 30%;
+  bottom: 20%;
 }
 
 .left-container {
@@ -26,7 +26,7 @@
 
 @media only screen and (min-width: 414px) {
   .banner-content {
-    margin-top: 2em;
+    bottom: 23%;
   }
 }
 
@@ -38,10 +38,12 @@
     padding: 0;
     width: 100%;
     position: absolute;
-    bottom: 40%;
+    bottom: 32%;
   }
   .left-container {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     margin-left: 2em;
   }
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Navbar.css";
-// import ResumeDownload from "../ResumeDownload/ResumeDownload";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 class Navbar extends React.Component {
@@ -75,7 +74,6 @@ class Navbar extends React.Component {
             Contact
           </div>
         </Link>
-        {/* <ResumeDownload /> */}
       </div>
     );
   }
