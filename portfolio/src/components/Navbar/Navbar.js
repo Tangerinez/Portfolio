@@ -37,7 +37,7 @@ class Navbar extends React.Component {
           to="section2"
           spy={true}
           smooth={true}
-          offset={-60}
+          offset={-55}
         >
           <div
             className="category navbar-about"
@@ -51,7 +51,7 @@ class Navbar extends React.Component {
           to="section3"
           spy={true}
           smooth={true}
-          offset={-60}
+          offset={-50}
         >
           <div
             className="category navbar-projects"
@@ -65,7 +65,7 @@ class Navbar extends React.Component {
           to="section4"
           spy={true}
           smooth={true}
-          offset={-60}
+          offset={-50}
         >
           <div
             className="category navbar-contact"
