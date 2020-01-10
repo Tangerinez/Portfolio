@@ -3,7 +3,7 @@ import "./ResumeDownloadButton.css";
 
 function ResumeDownloadButton() {
   return (
-    <a href="./gregory-tang-resume.png" download className="resume-href">
+    <a href="./gregory-tang-resume.pdf" download className="resume-href">
       <button className="resume-download-button">
         <div className="resume-download-container">
           Resume
