@@ -1,12 +1,18 @@
+.banner-wrap {
+  background-image: url("../../banner-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .banner-container {
-  background: -webkit-linear-gradient(to top, #2c5364, #203a43, #0f2027);
-  background: linear-gradient(to top, #2c5364, #203a43, #0f2027);
   height: 100vh;
   padding: 0 2em 0 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-bottom: 3px solid #00a4a6;
+  z-index: 2;
 }
 
 .banner-content {

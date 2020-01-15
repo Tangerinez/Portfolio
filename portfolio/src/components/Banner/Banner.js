@@ -7,14 +7,16 @@ import "./Banner.css";
 
 function Banner() {
   return (
-    <div className="banner-container">
-      <div className="banner-content">
-        <div className="left-container">
-          <IntroText />
-          <ViewWorkButton />
-          <ResumeDownloadButton />
+    <div className="banner-wrap">
+      <div className="banner-container">
+        <div className="banner-content">
+          <div className="left-container">
+            <IntroText />
+            <ViewWorkButton />
+            <ResumeDownloadButton />
+          </div>
+          <Ghost />
         </div>
-        <Ghost />
       </div>
     </div>
   );
