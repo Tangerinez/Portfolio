@@ -25,12 +25,12 @@ const Projects = props => {
           appURL="http://fathomless-bastion-86766.herokuapp.com"
         />
         <ProjectCard
-          imgURL="./clicky-game.png"
-          alt="clicky-game"
-          cardTitle="Clicky Game"
-          description="React.js + HTML + CSS/Bootstrap"
-          sourceURL="https://github.com/Tangerinez/ReactMemoryGame"
-          demoURL="memory-game.mov"
+          imgURL="./blog.png"
+          alt="wavely-blog-page"
+          cardTitle="Wavely Blog Page"
+          description="React.js + HTML + CSS + Node.js/Express"
+          sourceURL="https://github.com/gregtang1234?tab=repositories"
+          appURL="https://blog.wavely.com"
         />
         <ProjectCard
           imgURL="./swolemates.png"
